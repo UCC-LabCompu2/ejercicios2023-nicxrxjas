@@ -1,0 +1,29 @@
+
+div{
+    border: 2px solid #feab5a;
+    margin: 30px 40px;
+    padding: 15px;
+    background-color: rgb(27, 123, 112);
+    border-radius: 15px;
+    box-shadow: 2px 5px #6ec1da;
+}
+
+#usuario{
+    float: left;
+    width: 10%;
+    border-radius: 50%;
+}
+body{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to right, #ff5353, #000142);
+}
+
+h1,h2,h3{
+    text-shadow: 2px 3px #b4c5ff;
+}
+
+.titulo_principal{
+    font-weight: bold;
+}
+
