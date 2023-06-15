@@ -10,10 +10,14 @@
 
 <body onload="dibujarCiculoCuadrado()">
 <h1>Canvas 1</h1>
-<p>Ejercicio: Dibujar un Circulo y un cuadrado en una página. La función debe llamarse al cargar la página</p>
-<canvas id="myCanvas" class="ejer" width="800px" height="600px">
+<p>Ejercicio: Mini Paint.</p>
+<canvas id="Canvas" class="ejer" width="800px" height="600px" onmousemove="dibujar(event)">
     Tu navegador no soporta el tag de HTML5 canvas.
 </canvas>
+
+<button type="button" onclick="limpiarCanvas()">
+    Limpiar canvas.
+</button>
 
 </body>
 </html>
